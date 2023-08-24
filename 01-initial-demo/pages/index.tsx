@@ -10,16 +10,15 @@ export default function HomePage() {
       <MainLayout>
         <h1> Home Page </h1>
 
-        <h1>
+        <h1 className={'title'}>
           Ir a <Link href="/about">About</Link>
         </h1>
 
-        <div className="">
-          <p>
+          <p className={'description'}>
             Get started by editing&nbsp;
-            <code className="">pages/index.tsx</code>
+            <code className={'code'}>pages/index.tsx</code>
           </p>
-          </div>
+
       </MainLayout>
   )
 }

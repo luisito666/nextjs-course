@@ -14,16 +14,16 @@ export default function ContactPage() {
 
         <h1> Contact Page </h1>
 
-        <h1>
+        <h1 className={'title'}>
           Ir a <Link href="/">Home</Link>
         </h1>
 
-        <div className="">
-          <p>
+
+          <p className={'description'}>
             Get started by editing&nbsp;
-            <code className="">pages/contact.tsx</code>
+            <code className={'code'}>pages/contact.tsx</code>
           </p>
-          </div>
+
       </MainLayout>
     </>
   )
